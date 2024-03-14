@@ -1,0 +1,954 @@
+@import url("./font.css");
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Cormorant-SemiBoldItalic";
+    color: rgb(152, 144, 132);
+}
+
+.html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ body{
+    width: 1900px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(./img/background.jpg);
+    overflow-x: hidden;
+ }
+
+ nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
+    padding-left: 7%;
+    width: 90%;
+ }
+
+ .colection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .colection h6{
+    font-size: 28px;
+    color: rgb(115, 99, 87);
+    font-family: "Cormorant-SemiBold";
+ }
+
+ .colection p{
+    font-family: "Monserrat-Medium";
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+    width: 150px;
+ }
+
+ .miagko{
+   padding-top:20px;
+   margin-left: 14.5%;
+   width: 100%;
+ }
+
+ .miagko h1{
+   color: rgb(115, 99, 87);
+   font-family: "Cormorant-Regular";
+   font-size: 110px;
+   margin: 30px 0 0 0;
+   z-index: 1000;
+   width: 50%;
+ }
+
+ .kartinki{
+   position: absolute;
+   margin-left: 30%;
+   width:70%;
+   top: 200px;
+   z-index: -1000;
+ }
+
+ .kartinki .img3{
+   margin: 0 140px 0 0;
+ }
+
+.img4{
+   position: absolute;
+   top: 88%;
+   left: 74%;
+ }
+ 
+.container-love{
+   display: flex;
+   position: relative;
+   top:600px;
+   left: 23%;
+   width: 1000px;
+}
+ .container-love h2{
+   font-size: 55px;
+ }
+
+ .container-love h2 u{
+  color: rgb(115, 99, 87);
+  font-family: "Cormorant-Light";
+  font-size: 55px;
+}
+
+ .container-love .body{
+   position: absolute;
+   left: 830px;
+   bottom: 5px;
+ }
+
+ .section-collection{
+   position: relative;
+   padding: 700px 0 0 200px;
+   width: 100%;
+ }
+
+ 
+ .section-collection .nazvanie{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 50px;
+   margin-left: 5%;
+ }
+
+ .section-collection .nazvanie .line{
+   border-bottom: 1px solid rgb(166, 158, 146); 
+   width: 50px;
+ }
+ .section-collection .nazvanie p{
+   font-size: 18px;
+   font-family: 'Montserrat';
+   margin-left: 20px;
+   font-family: "Monserrat-Medium";
+ }
+
+
+
+.container{
+  position: relative;
+}
+
+.container .wrapper{
+  width: 60vw;
+  height: 75vh;
+  margin: 5rem auto;
+  overflow: hidden;
+  margin-left: 30%;
+}
+
+.container .wrapper-holder{
+  display: grid;
+  grid-template-columns: repeat(5, 100%);
+  height: 100%;
+  width: 100%;
+  animation: slider 20s  ease-in-out infinite alternate ;
+}
+
+.container #milo1{
+  background-position: center;
+}
+
+.container .button-holder .button{
+  background-color: rgb(166, 158, 146);
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 3rem;
+}
+
+.container .button-holder{
+  position: absolute;
+  left: 45%;
+  bottom: 0%;
+}
+
+
+@keyframes slider{
+  0%{transform: translateX(0%);}
+  10%{transform: translateX(-100%);}
+  20%{transform: translateX(-100%);}
+  30%{transform: translateX(-200%);}
+  40%{transform: translateX(-200%);}
+  50%{transform: translateX(-200%);}
+  60%{transform: translateX(-300%);}
+  70%{transform: translateX(-300%);}
+  80%{transform: translateX(-300%);}
+  90%{transform: translateX(0%);}
+  100%{transform: translateX(0%);}
+}
+
+
+ .section-collection .wrapper-holder p{
+   font-size: 18px;
+   color: rgb(115, 99, 87);
+   font-family: "Monserrat-Medium";
+   margin-top: 10px;
+
+ }
+
+ .section-collection .wrapper-holder .plus{
+   color:rgb(115, 99, 87) ;
+   position: relative;
+   left: 420px;
+   bottom: 50px;
+ }
+
+ .section-collection .wrapper-holder  .plus p{
+   font-size: 50px;
+ }
+
+ .section-history{
+  height: 800px;
+  padding-left: 8%;
+  width: 1900px;
+ }
+
+.section-history .container-his{
+  margin: 300px 0 0 200px;
+}
+
+ .section-history .nazvanie{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+ .section-history .nazvanie .line{
+  border-bottom: 1px solid rgb(166, 158, 146); 
+  width: 50px;
+}
+.section-history .nazvanie p{
+  font-size: 18px;
+  margin-left: 20px;
+  padding-top: 30px;
+  font-family: "Monserrat-Medium";
+}
+
+.section-history .text{
+  width: 45%;
+}
+
+.section-history .text h2{
+  font-size: 55px;
+  color: rgb(115,  99, 87);
+  margin-bottom: 40px;
+}
+
+.section-history .text h5{
+  font-size: 24px;
+}
+
+
+.section-history .container-his .mila{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.section-history .container-his .mila .text{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.section-history .container-his .mila img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.section-history .container-his .mila a{
+  text-decoration: underline;
+  font-size: 18px;
+  color:rgb(115,  99, 87) ;
+  font-family: "Monserrat-Medium";
+}
+
+.section-history .container-his .mila p{
+  font-size: 18px;
+  color: rgb(166, 158, 146);
+  font-family: "Monserrat-Medium";
+}
+
+.section-history .kartin{
+  position: relative;
+  left: 550px;
+  bottom: 510px;
+  width: 1000px;
+}
+
+.section-history .kartin .img12{
+  position: relative;
+  top: 100px;
+  margin-right: 30px;
+}
+
+.section-history .kartin .rose{
+  position: absolute;
+  left: 713px;
+  top: 280px;
+}
+
+.section-principles{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-left: 18%;
+  width: 100%;
+}
+
+.section-principles .container-principle{
+  width: 370px;
+  margin: 130px 70px 0 0;
+}
+
+.section-principles .container-principle p{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.section-principles .container-principle .princ{
+  padding-left: 150px;
+}
+
+.section-sianie{
+  margin-top: 120px;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.section-sianie .background{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: -4%;
+  width: 85%;
+}
+
+.section-sianie .background h1{
+  font-size: 160px;
+  font-family: "Cormorant-Regular";
+  color: rgb(166, 158, 146);
+  line-height: 70%;
+  margin-top: 30px;
+}
+
+.section-sianie .container-eyes{
+  position: absolute;
+  left: 32%;
+  width: 630px;
+  height: 390px;
+  bottom: 23%;
+  text-align: center;
+  background: url(../assets/img/13.jpg);
+ }
+
+
+ .section-sianie .container-eyes h4{
+  color: #ffffff;
+  font-family:"Montserrat-Thin";
+  font-size: 24px;
+  margin: 110px 0 50px 0;
+ }
+
+ .section-sianie .container-eyes .btn{
+  color: #ffffff;
+  font-size: 18px;
+  font-family:"Monserrat-Light";
+  border-radius: 40px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: transparent;
+  width: 189px;
+  height: 56px;
+  transition: 0.5s;
+ }
+
+ .section-sianie .container-eyes .btn:hover{
+  box-shadow: 0 0 0 3px #fff;
+  transition: 0.3s;
+ }
+
+ .section-inst{
+  margin-top: 200px;
+  padding-bottom: 170px;
+ }
+
+ .section-inst .inst{
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+ }
+
+ .section-inst .inst h6{
+  font-family: "Monserrat-Light";
+  font-size: 18px;
+  margin-right: 10px;
+ }
+
+ .section-inst .inst a{
+  font-family: "Monserrat-Medium";
+  text-decoration: underline;
+  font-size: 18px;
+  color:rgb(115,  99, 87) 
+ }
+
+ .section-inst .photos{
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+ }
+
+ .section-inst .photos .photo{
+  width: 18.25%;
+ }
+
+ 
+ .section-inst .photos img{
+  margin-right: 30px;
+ }
+
+ .section-podbor{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0 155px 20%;
+  background: url(./img/19.jpg);
+ }
+
+ .section-podbor .container-uxod{
+  width: 33%;
+  margin-right: 13%;
+ }
+ 
+ .section-podbor .container-uxod h2{
+  font-size: 55px;
+  color: rgb(115,  99, 87);
+  margin-bottom: 30px;
+ }
+
+.section-podbor .container-uxod h5{
+  font-size: 24px;
+}
+
+.section-podbor .btn{
+  position: absolute;
+  color: rgb(115,  99, 87);
+  font-size: 18px;
+  font-family:"Monserrat-Medium";
+  border-radius: 40px;
+  border: 1px solid rgb(115,  99, 87);
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: transparent;
+  width: 190px;
+  height: 56px;
+  left: 47%;
+  top: 595%;
+ }
+
+ .section-podbor .btn:hover{
+  box-shadow: 0 0 0 3px rgb(115,  99, 87);
+  transition: 0.3s;
+ }
+
+ .section-podbor .container-regestration{
+  width: 41%;
+ }
+
+.section-podbor .container-regestration p{
+  font-family: "Monserrat-Medium";
+  font-size: 18px;
+}
+
+.section-podbor .container-regestration .line{
+  border-bottom: 2px solid rgb(115,  99, 87); 
+  width: 470px;
+  margin: 10px 0 40px 0;
+}
+
+.section-podbor .container-regestration .vibor{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.section-podbor .container-regestration .vibor label{
+  font-family: "Monserrat-Medium";
+  color: rgb(115,  99, 87);
+  margin: 0 30px 40px 10px;
+}
+
+.section-podbor .container-regestration .vibor .vibor1{
+  accent-color: rgb(115,  99, 87);
+  background: transparent;
+  transform: scale(1.5);
+} 
+
+.section-podbor .container-regestration  .checkbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.section-podbor .container-regestration .checkbox p{
+  font-family: "Monserrat-Medium";
+  font-size: 15px;
+  color: rgb(115,  99, 87);
+  margin-left: 10px;
+}
+
+.section-podbor .container-regestration .checkbox input{
+  accent-color: rgb(115,  99, 87);
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
+
+footer{
+  background: url(../assets/img/20.jpg);
+  width: 100%px;
+  height: 400px;
+}
+
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 130px;
+  margin-left: 20%;
+}
+
+.container-footer .mimiloo{
+  width: 15%;
+  margin-right: 10%;
+}
+
+.container-footer .mimiloo h5{
+  font-size: 28px;
+  color: rgb(225, 219, 214);
+  font-family: "Cormorant-Regular";
+}
+
+.container-footer .mimiloo h6{
+  font-family: "Monserrat-Light";
+  font-size: 18px;
+  margin: 10px 0 50px 0;
+}
+
+.container-footer .mimiloo p{
+  font-size: 15px;
+  font-family: "Monserrat-Light";
+}
+
+.container-footer .contact{
+  width: 25%;
+  margin-right: 10%;
+}
+
+.container-footer .contact h6{
+  font-size: 18px;
+  font-family: "Monserrat-Light";
+  line-height: 40px;
+}
+
+
+.container-footer .sot-setis{
+  display: flex;
+  flex-direction: row;
+  width: 12%;
+}
+
+.container-footer .sot-setis .sot-seti{
+  margin-right: 10px;
+}
+
+
+.circle{
+  margin-right: 10px;
+  width: 155%;
+  height: 29%;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1em solid rgb(154, 148, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sot-seti{
+  margin-left: 8px;
+}
+
+@media(max-width:740px){
+  .container{
+      width: 100% !important;
+      padding:0 20px !important;
+  }
+
+  body{
+    width: fit-content;
+  }
+  header{
+    width: fit-content;
+  }
+  .section{
+    width: 740px !important;
+  }
+  header{
+    width: auto !important;
+  }
+  nav{
+    width: 500px !important;
+    padding-left: 20px !important;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+  .colection p{
+    font-size: 14px;
+    margin: 0;
+  }
+  .miagko{
+    margin-left: 25px !important;
+  }
+  .miagko img{
+    width: 150px;
+    height: 150px;
+  }
+  .miagko h1{
+    font-size: 70px;
+    width: 500px;
+  }
+  .kartinki .img3{
+    width: 100px;
+    height: 100px;
+    margin-top: 348px;
+  }
+  .kartinki img{
+    width: 300px;
+    height: 450px;
+  }
+  .kartinki{
+    margin:0 0 0 30px !important;
+    padding-left: 130px !important;
+    width: 500px !important;
+    display: flex;
+    flex-direction: row;
+  }
+  .img4{
+    width: 90px;
+    height: 90px;
+    top: 69% !important;
+    left: 87% !important;
+  }
+  .container-love{
+    width: 75% !important;
+    left: 0px !important;
+    padding-left: 70px !important;
+  }
+  .container-love h2{
+    font-size: 35px;
+  }
+  .container-love u{
+    font-size: 35px !important;
+  }
+  .container-love .body{
+    left: 540px !important;
+    bottom: -25px;
+  }
+  .section-collection {
+    margin-left: -115px !important;
+    width: 740px;
+  }.section-collection .wrapper{
+    margin-left: 17%;
+  }
+  .section-collection .nazvanie{
+    width: 500px;
+  }
+  .section-collection .wrapper-holder .plus {
+    left: 400px;
+  }
+  .section-history{
+    padding: 0px;
+  }
+  .section-history .container-his {
+    margin: 100px 0 0 0 !important;
+    padding: 0 0 0 70px !important;
+  }
+  .img12{
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .kartin img{
+    width: 270px;
+    height: 510px;
+  }
+  .section-history .kartin {
+    left: 220px !important;
+    bottom: 450px !important;
+    width: 500px;
+  }
+  .section-history .kartin .rose {
+    position: absolute;
+    left: 430px;
+    top: 280px;
+    width: 70px;
+    height: 310px;
+  }
+  .section-principles {
+    flex-direction: column !important;
+    margin-top: 250px !important;
+    padding-left: 160px !important;
+
+  }
+  .section-principles .container-principle .princ {
+    padding-left: 100px;
+  }
+  .section-principles .container-principle {
+    width: 370px;
+    margin: 130px 0 0 70px;
+  }
+  .section-sianie .background h1 {
+    font-size: 80px;
+    opacity: 0;
+  }
+  .section-sianie .background h1{
+    font-size: 14px !important;
+  }
+  .section-sianie .background{
+    width: 500px !important;
+  }
+  .section-sianie .container-eyes {
+    left: 8% !important;
+    width: 630px;
+    height: 390px;
+    bottom: 23%;
+  }
+  .section-inst{
+    padding-top:-40px !important;
+    margin-bottom: 50px;
+    margin-left: 0px !important;
+    padding-left: 30px;
+  }
+  .section-inst .inst{
+    margin-left: 0px !important;
+  }
+  .section-inst .photos {
+    flex-direction: column;
+  }
+  .section-inst .photos{
+    padding-left: 190px;
+  }
+  .section-inst .photos .photo {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .section-podbor {
+    height: 800px;
+    flex-direction: column;
+    padding: 40px 0 155px 17%;
+  }
+  .section-podbor .container-uxod h2 {
+    font-size: 40px;
+  }
+  .section-podbor .container-uxod h5 {
+    font-size: 18px;
+  }
+  .section-podbor .container-uxod {
+    width: 70%;
+    margin: 0 0 100px 50px;
+  }
+  .section-podbor .btn{
+    top: 855% !important;
+    left: 37% !important;
+  }
+  .section-podbor .container-regestration {
+    width: 50%;
+    margin-left: 50px;
+  }
+  .section-podbor .container-regestration p {
+    font-size: 14px;
+  }
+  .section-podbor .container-regestration .line {
+    width: 400px;
+  }
+  .section-podbor .btn {
+    left: 40%;
+    top: 870%;
+  }
+  footer{
+    height: 260px;
+    width: fit-content !important;
+  }
+  .container-footer{
+    margin-left: 20px !important;
+    padding-top: 70px !important;
+    width: 670px !important;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+  }
+  .container-footer .mimiloo h5 {
+    font-size: 20px;
+  }
+  .container-footer .mimiloo h6 {
+    font-size: 14px;
+    margin: 10px 0 30px 0;
+  }
+  .container-footer .mimiloo p {
+    font-size: 12px;
+  }
+  .container-footer .contact h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .container-footer .sot-setis {
+    width: 200px;
+  }
+}
+
+@media(max-width: 1170px){
+  .container{
+    width: 720px !important;
+  }
+    /* *{
+    border: 1px solid red;
+  } */
+  .section{
+    width: 1170px;
+  }
+  nav{
+    width: 1170px;
+    padding-left: 0px;
+  }
+  header{
+    width: fit-content;
+  }
+  body{
+    width: fit-content;
+  }
+  .miagko {
+    margin-left: 65px;
+  }
+  .kartinki {
+    padding-left: 220px;
+    margin: 130px 0 0 0;
+    width: 100%;
+  }
+  .img4 {
+    top: 112%;
+    left: 87.7%;
+  }
+  .container-love{
+    left: 19%;
+    margin-top: -100px;
+  }
+  .container-love .body{
+    left: 650px;
+  }
+  .section-collection {
+    padding: 850px 0 0 130px;
+  }
+  .section-collection .nazvanie{
+    width: 500px;
+  }
+  .section-history {
+    height: 800px;
+    padding-left: 0; 
+  }
+  .section-history .container-his {
+    margin: 300px 0 0 100px;
+  }
+  .section-history .kartin {
+    left: 170px;
+    bottom: 510px;
+  }
+  .section-principles .container-principle{
+    width: 300px;
+  }
+  .section-principles{
+    margin-top: 300px;
+    padding-left: 90px;
+  }
+  .background{
+    width: 1170px !important;
+    margin: 0;
+    padding-left: 40px;
+  }
+  .background h1{
+    font-size: 115px !important;
+    line-height: 90% !important;
+  }
+  .section-sianie{
+    margin-top: 150px;
+    padding: 0;
+  }
+  .section-sianie .container-eyes {
+    left: 22%;
+    bottom: 20%;
+  }
+  .section-inst .photos img {
+    margin-right: 25px;
+  }
+  .section-podbor{
+    width: 1170px ;
+    padding-left: 120px;
+  }
+  .container-regestration{
+    margin-top: 100px;
+  }
+  .section-podbor .btn{
+    top: 700%;
+    left: 42%;
+  }
+  footer{
+    width: 1170px;
+  }
+  .container-footer{
+    margin-left: 230px;
+    justify-content: space-between;
+  }
+  .container-footer .mimiloo {
+    width: auto;
+  }
+  .container-footer .contact{
+    left: 50px;
+    width: auto;
+  }
+  .container-footer .sot-setis{
+    width: auto;
+    left: 100px;
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+  }
+}
